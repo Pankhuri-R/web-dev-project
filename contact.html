@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/en/5/5a/Ramaiah_Institutions_Logo.png" type="image/x-icon">
+    <title>MS Ramaiah Institute of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function newForm(){
+            document.getElementById('reg-form').reset();
+    </script>
+    </head>
+
+    <body>
+        
+        <header class="primary-header group container">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/en/5/5a/Ramaiah_Institutions_Logo.png" alt="MSRIT">
+            <h1 class="name">Ramaiah </h1>
+            
+
+            <h3 class="address">M S Ramaiah Nagar, MSR Nagar, Bengaluru, Karnataka 560054</h3>
+
+            <h3 class="name-2"> Institute of Technology</h3>
+
+            <nav class="primary-nav">
+                <a href="home.html">Home</a>
+                <a href="registerPage.html">Register</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact Us</a>
+
+            </nav>
+
+             <br>
+        </header>
+
+        <section class="box bg-2"></section>
+            <form class="form " action="#" method="POST" id="cont-form">
+                <h2>Happy to Help</h2>
+                <p>Kindly contact us if you have any queries which are not cleared through our website.</p>
+                <fieldset class="contact">
+                    <label>
+                        Name
+                        <input type="text" name="name" placeholder="Full Name" required>
+                    </label>
+
+                    <label>
+                        Email id
+                        <input type="email" name="email" placeholder="xyz@yahoo.com" required>
+                    </label>
+
+                    <label>
+                        Phone
+                        <input type="tel" name="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="12-3456-7890">
+                    </label>
+
+                    <label id="comments">
+                        Issue
+                        <textarea name="issues" required></textarea>
+                    </label>
+                </fieldset>
+                <input class="button sub-btn" type="submit" name="submit" value="Submit" onclick="new-Form()">
+            </form> 
+
+        <footer class="primary-footer">
+
+            <nav >
+                <div class="align">
+                <a href="https://www.linkedin.com/school/m.s.-ramaiah-institute-of-technology/?originalSubdomain=in">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/384px-Linkedin_icon.svg.png" 
+                    alt="linkedin">
+                </a>
+
+                <a href="https://www.facebook.com/RamaiahInstituteofTechnologyRIT/">
+                    <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" 
+                    alt="facebook.com">
+                </a>
+
+                <a href="https://twitter.com/msrit">
+                    <img src="https://www.pngkey.com/png/full/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" 
+                    alt="Twitter.com">
+                
+                </a>
+
+                <a href="https://www.instagram.com/?hl=en">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/198px-Instagram_logo_2016.svg.png" 
+                    alt="Instagram">
+                </a>
+
+                <a href="mailto:admn@msrit.edu">
+                    <img src="https://cdn0.iconfinder.com/data/icons/material-circle-apps/512/icon-email-material-design-512.png" 
+                    alt="Mail">
+                </a>
+                </div>
+            </nav>
+            <small>&copy; Ramaiah Institute of Technology </small>
+            <nav class="foot-nav">
+                <a href="home.html">Home</a>
+                <a href="registerPage.html">Register</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact Us</a>
+                </nav>
+        </footer>
+
+    </body>
+</html>
